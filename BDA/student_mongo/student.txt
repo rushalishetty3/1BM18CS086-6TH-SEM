@@ -129,7 +129,7 @@ db.getCollection('Student').find({"Name" : "EcksWhyZee"}).forEach(printjson)
 
 7.  Export to json
 
-mongoexport --db testdb --collection Student --out C:\Users\shaan\Desktop\Exported\Student.json
+mongoexport --db testdb --collection Student --out C:\Users\Desktop\Exported\Student.json
 
 {"_id":{"$oid":"606ad5a6e581cc0b904470a5"},"Name":"EcksWhyZee","RollNo:":1.0,"Age":21.0,"ContactNo":"1234567890","EmailId":"user1@lab.com"}
 
@@ -147,4 +147,4 @@ db.getCollection('Student').drop()
 
 9.  Import from exported file
 
-mongoimport --db testdb --collection Student C:\Users\shaan\Desktop\Exported\Student.json
+mongoimport --db testdb --collection Student C:\Users\Desktop\Exported\Student.json
