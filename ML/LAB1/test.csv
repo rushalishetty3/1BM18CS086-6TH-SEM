@@ -1,0 +1,4 @@
+age,income,student,credit_rating
+<=30,high,no,fair
+<=30,high,no,excellent
+31..40,low,yes,excellent
